@@ -1,0 +1,77 @@
+<template>
+	<lightning-card>
+		<div slot="title">
+			<h3>
+				Avanza Enterprizes Limited
+			</h3>
+			<div class="slds-text-body_small">The quick brown fox jumps over the lazy dog.</div>
+		</div>
+		<div slot="footer">
+			<div class="slds-clearfix">
+				<div class="slds-float_right">
+					<lightning-button variant="brand" label="Save" title="Primary action" class="slds-m-left_x-small">
+					</lightning-button>
+				</div>
+				<div class="slds-float_right">
+					<lightning-button label="Cancel" title="Non-primary action" class="slds-m-left_x-small">
+					</lightning-button>
+				</div>
+			</div>
+		</div>
+		<div class="slds-p-around_small">
+			<div class="slds-text-heading_medium">Wholesale Application Form</div>
+			<div class="slds-grid slds-wrap">
+				<div class="slds-col slds-size_3-of-12 slds-p-right_small">
+					<div class="">
+						<lightning-input type="text" label="Business Name" required></lightning-input>
+					</div>
+				</div>
+				<div class="slds-col slds-size_3-of-12 slds-p-right_small">
+					<div class="">
+						<lightning-input type="text" label="A.B.N" required></lightning-input>
+					</div>
+				</div>
+				<div class="slds-col slds-size_3-of-12 slds-p-right_small">
+					<div class="">
+						<lightning-input type="email" label="Email" required></lightning-input>
+					</div>
+				</div>
+				<div class="slds-col slds-size_3-of-12">
+					<div class="">
+						<lightning-input type="text" label="Website" required></lightning-input>
+					</div>
+				</div>
+			</div>
+			<div class="slds-grid slds-wrap">
+				<div class="slds-col slds-size_3-of-12 slds-p-right_small">
+					<h5>Phone Number</h5>
+					<div class="slds-clearfix">
+						<div class="slds-size_4-of-12 slds-float_left slds-p-right_x-small">
+							<lightning-input type="text" label="Area Code"></lightning-input>
+						</div>
+						<div class="slds-size_8-of-12 slds-float_left">
+							<lightning-input type="text" label="Number"></lightning-input>
+						</div>
+					</div>
+				</div>
+				<div class="slds-col slds-size_3-of-12 slds-p-right_small">
+					<h5>Billing Address</h5>
+					<div class="slds-clearfix">
+						<div class="slds-size_8-of-12 slds-float_left slds-p-right_x-small">
+							<lightning-input type="text" label="Address"></lightning-input>
+						</div>
+						<div class="slds-size_4-of-12 slds-float_left">
+							<lightning-input type="text" label="Pin Code"></lightning-input>
+						</div>
+					</div>
+				</div>
+				<div class="slds-col slds-size_3-of-12 slds-clearfix">
+					<div class="slds-align_absolute-center slds-float_left" style="height:4rem">
+						<lightning-input type="checkbox" label="Do you own multiple business?" name="input1">
+						</lightning-input>
+					</div>
+				</div>
+			</div>
+		</div>
+	</lightning-card>
+</template>
